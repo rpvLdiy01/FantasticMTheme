@@ -1,0 +1,726 @@
+#write pre::after {
+    position: absolute;
+    z-index: 99;
+    top: -25px;
+    right: 0.5%;
+
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px; /* 字间距 */
+    color: white;
+}
+
+#write pre[lang$='ABAP']:after,
+#write pre[lang$='abap']:after {
+    content: 'ABAP';
+}
+
+#write pre[lang$='apl']:after,
+#write pre[lang$='APL']:after {
+    content: 'APL';
+}
+
+#write pre[lang$='asciiarmor']:after,
+#write pre[lang$='ASCIIARMOR']:after {
+    content: 'ASCII-Armor';
+}
+
+#write pre[lang$='ASN.1']:after,
+#write pre[lang$='asn.1']:after {
+    content: 'ASN.1';
+}
+
+#write pre[lang$='asp']:after,
+#write pre[lang$='ASP']:after {
+    content: 'ASP';
+}
+
+#write pre[lang$='bash']:after,
+#write pre[lang$='Bash']:after {
+    content: 'Bash';
+}
+
+#write pre[lang$='basic']:after,
+#write pre[lang$='Basic']:after {
+    content: 'BASIC';
+}
+
+#write pre[lang$='C']:after,
+#write pre[lang$='c']:after {
+    content: 'C';
+}
+
+#write pre[lang$='c#']:after,
+#write pre[lang$='C#']:after,
+#write pre[lang$='csharp']:after,
+#write pre[lang$='CSharp']:after {
+    content: 'C#';
+}
+
+#write pre[lang$='c++']:after,
+#write pre[lang$='C++']:after,
+#write pre[lang$='CPP']:after,
+#write pre[lang$='cpp']:after {
+    content: 'C++';
+}
+
+#write pre[lang$='cassandra']:after,
+#write pre[lang$='Cassandra']:after {
+    content: 'Cassandra';
+}
+
+#write pre[lang$='ceylon']:after,
+#write pre[lang$='Ceylon']:after {
+    content: 'Ceylon';
+}
+
+#write pre[lang$='clike']:after,
+#write pre[lang$='Clike']:after {
+    content: 'C-like';
+}
+
+#write pre[lang$='clojure']:after,
+#write pre[lang$='clojure']:after {
+    content: 'Clojure';
+}
+
+#write pre[lang$='CMake']:after,
+#write pre[lang$='cmake']:after {
+    content: 'CMake';
+}
+
+#write pre[lang$='cobol']:after,
+#write pre[lang$='COBOL']:after {
+    content: 'COBOL';
+}
+
+#write pre[lang$='coffeescript']:after,
+#write pre[lang$='CoffeeScript']:after {
+    content: 'CoffeeScript';
+}
+
+#write pre[lang$='commonlisp']:after,
+#write pre[lang$='CommonLisp']:after {
+    content: 'Common Lisp';
+}
+
+#write pre[lang$='CQL']:after,
+#write pre[lang$='cql']:after {
+    content: 'CQL';
+}
+
+#write pre[lang$='crystal']:after,
+#write pre[lang$='Crystal']:after {
+    content: 'Crystal';
+}
+
+#write pre[lang$='css']:after,
+#write pre[lang$='CSS']:after {
+    content: 'CSS';
+}
+
+#write pre[lang$='cypher']:after,
+#write pre[lang$='Cypher']:after {
+    content: 'Cypher';
+}
+
+#write pre[lang$='CMD']:after,
+#write pre[lang$='cmd']:after,
+#write pre[lang$='Cmd']:after {
+    content: 'Cmd';
+}
+
+#write pre[lang$='cython']:after,
+#write pre[lang$='Cython']:after {
+    content: 'Cython';
+}
+
+#write pre[lang$='dart']:after,
+#write pre[lang$='Dart']:after {
+    content: 'Dart';
+}
+
+#write pre[lang$='diff']:after,
+#write pre[lang$='Diff']:after {
+    content: 'Diff';
+}
+
+#write pre[lang$='django']:after,
+#write pre[lang$='Django']:after {
+    content: 'Django';
+}
+
+#write pre[lang$='dockerfile']:after,
+#write pre[lang$='Dockerfile']:after {
+    content: 'Dockerfile';
+}
+
+#write pre[lang$='dtd']:after,
+#write pre[lang$='DTD']:after {
+    content: 'DTD';
+}
+
+#write pre[lang$='Dylan']:after,
+#write pre[lang$='dylan']:after {
+    content: 'Dylan';
+}
+
+#write pre[lang$='elixir']:after,
+#write pre[lang$='Elixir']:after {
+    content: 'Elixir';
+}
+
+#write pre[lang$='Elm']:after,
+#write pre[lang$='elm']:after {
+    content: 'Elm';
+}
+
+#write pre[lang$='Embedded JS']:after,
+#write pre[lang$='embeddedjs']:after {
+    content: 'Embedded JS';
+}
+
+#write pre[lang$='erlang']:after,
+#write pre[lang$='Erlang']:after {
+    content: 'Erlang';
+}
+
+#write pre[lang$='F#']:after,
+#write pre[lang$='f#']:after,
+#write pre[lang$='fsharp']:after,
+#write pre[lang$='Fsharp']:after {
+    content: 'F#';
+}
+
+#write pre[lang$='flow']:after,
+#write pre[lang$='Flow']:after {
+    content: 'Flow';
+}
+
+#write pre[lang$='forth']:after,
+#write pre[lang$='Forth']:after {
+    content: 'Forth';
+}
+
+#write pre[lang$='fortran']:after,
+#write pre[lang$='Fortran']:after {
+    content: 'Fortran';
+}
+
+#write pre[lang$='gas']:after,
+#write pre[lang$='Gas']:after {
+    content: 'Gas';
+}
+
+#write pre[lang$='gfm']:after,
+#write pre[lang$='GFW']:after {
+    content: 'GFW';
+}
+
+#write pre[lang$='gherkin']:after,
+#write pre[lang$='Gherkin']:after {
+    content: 'Gherkin';
+}
+
+#write pre[lang$='glsl']:after,
+#write pre[lang$='GLSL']:after {
+    content: 'GLSL';
+}
+
+#write pre[lang$='Go']:after,
+#write pre[lang$='go']:after {
+    content: 'Go';
+}
+
+#write pre[lang$='Groovy']:after,
+#write pre[lang$='groovy']:after {
+    content: 'Groovy';
+}
+
+#write pre[lang$='handlebars']:after,
+#write pre[lang$='Handlebars']:after {
+    content: 'Handlebars';
+}
+
+#write pre[lang$='haskell']:after,
+#write pre[lang$='Haskell']:after {
+    content: 'Haskell';
+}
+
+#write pre[lang$='haxe']:after,
+#write pre[lang$='Haxe']:after {
+    content: 'Haxe';
+}
+
+#write pre[lang$='htaccess']:after,
+#write pre[lang$='Htaccess']:after {
+    content: 'Htaccess';
+}
+
+#write pre[lang$='html']:after,
+#write pre[lang$='HTML']:after {
+    content: 'HTML';
+}
+
+#write pre[lang$='HTTP']:after,
+#write pre[lang$='http']:after {
+    content: 'HTTP';
+}
+
+#write pre[lang$='hxml']:after,
+#write pre[lang$='HXML']:after {
+    content: 'HXML';
+}
+
+#write pre[lang$='IDL']:after,
+#write pre[lang$='idl']:after {
+    content: 'IDL';
+}
+
+#write pre[lang$='ini']:after,
+#write pre[lang$='INI']:after {
+    content: 'INI';
+}
+
+#write pre[lang$='jade']:after,
+#write pre[lang$='Jade']:after {
+    content: 'Jade';
+}
+
+#write pre[lang$='java']:after,
+#write pre[lang$='Java']:after {
+    content: 'Java';
+}
+
+#write pre[lang$='javascript']:after,
+#write pre[lang$='JavaScript']:after,
+#write pre[lang$='JS']:after,
+#write pre[lang$='js']:after {
+    content: 'JavaScript';
+}
+
+#write pre[lang$='jinja2']:after,
+#write pre[lang$='Jinja2']:after {
+    content: 'Jinja2';
+}
+
+#write pre[lang$='json']:after,
+#write pre[lang$='JSON']:after {
+    content: 'JSON';
+}
+
+#write pre[lang$='JSP']:after,
+#write pre[lang$='jsp']:after {
+    content: 'JSP';
+}
+
+#write pre[lang$='jsx']:after,
+#write pre[lang$='JSX']:after {
+    content: 'JSX';
+}
+
+#write pre[lang$='Kotlin']:after,
+#write pre[lang$='kotlin']:after {
+    content: 'Kotlin';
+}
+
+#write pre[lang$='LATEX']:after,
+#write pre[lang$='Latex']:after {
+    content: 'LaTeX';
+}
+
+#write pre[lang$='less']:after,
+#write pre[lang$='Less']:after {
+    content: 'Less';
+}
+
+#write pre[lang$='lisp']:after,
+#write pre[lang$='LISP']:after {
+    content: 'LISP';
+}
+
+#write pre[lang$='livescript']:after,
+#write pre[lang$='LiveScript']:after {
+    content: 'LiveScript';
+}
+
+#write pre[lang$='Lua']:after,
+#write pre[lang$='lua']:after {
+    content: 'Lua';
+}
+
+/* —————————————————————————————————————————————————————————M————————————————————————————————————————————————————————— */
+#write pre[lang$='makefile']:after,
+#write pre[lang$='Makefile']:after {
+    content: 'Makefile';
+}
+
+#write pre[lang$='mariadb']:after,
+#write pre[lang$='MariaDB']:after {
+    content: 'MariaDB';
+}
+
+#write pre[lang$='markdown']:after,
+#write pre[lang$='Markdown']:after {
+    content: 'Markdown';
+}
+
+#write pre[lang$='mathematica']:after,
+#write pre[lang$='Mathematica']:after {
+    content: 'Mathematica';
+}
+
+#write pre[lang$='matlab']:after,
+#write pre[lang$='MATLAB']:after {
+    content: 'MATLAB';
+}
+
+#write pre[lang$='mbox']:after,
+#write pre[lang$='MBOX']:after {
+    content: 'MBOX';
+}
+
+#write pre[lang$='mermaid']:after,
+#write pre[lang$='Mermaid']:after {
+    content: 'Mermaid';
+}
+
+#write pre[lang$='mssql']:after,
+#write pre[lang$='MSSQL']:after {
+    content: 'MSSQL';
+}
+
+#write pre[lang$='mysql']:after,
+#write pre[lang$='MySQL']:after {
+    content: 'MySQL';
+}
+
+#write pre[lang$='nginx']:after,
+#write pre[lang$='Nginx']:after {
+    content: 'Nginx';
+}
+
+#write pre[lang$='nim']:after,
+#write pre[lang$='Nim']:after {
+    content: 'Nim';
+}
+
+#write pre[lang$='nsis']:after,
+#write pre[lang$='NSIS']:after {
+    content: 'NSIS';
+}
+
+#write pre[lang$='objc']:after,
+#write pre[lang$='Obj-C']:after,
+#write pre[lang$='objective-c']:after,
+#write pre[lang$='Objective-C']:after {
+    content: 'Objective-C';
+}
+
+#write pre[lang$='ocaml']:after,
+#write pre[lang$='OCaml']:after {
+    content: 'OCaml';
+}
+
+#write pre[lang$='octave']:after,
+#write pre[lang$='Octave']:after {
+    content: 'Octave';
+}
+
+#write pre[lang$='Oz']:after,
+#write pre[lang$='oz']:after {
+    content: 'Oz';
+}
+
+#write pre[lang$='pascal']:after,
+#write pre[lang$='Pascal']:after {
+    content: 'Pascal';
+}
+
+#write pre[lang$='perl']:after,
+#write pre[lang$='Perl']:after {
+    content: 'Perl';
+}
+
+#write pre[lang$='perl6']:after,
+#write pre[lang$='Perl 6']:after {
+    content: 'Perl 6';
+}
+
+#write pre[lang$='PGP']:after,
+#write pre[lang$='pgp']:after {
+    content: 'PGP';
+}
+
+#write pre[lang$='php']:after,
+#write pre[lang$='PHP']:after {
+    content: 'PHP';
+}
+
+#write pre[lang$='php+HTML']:after {
+    content: 'PHP+HTML';
+}
+
+#write pre[lang$='plsql']:after,
+#write pre[lang$='PL/SQL']:after {
+    content: 'PL/SQL';
+}
+
+#write pre[lang$='powershell']:after,
+#write pre[lang$='PowerShell']:after {
+    content: 'PowerShell';
+}
+
+#write pre[lang$='properties']:after,
+#write pre[lang$='Properties']:after {
+    content: 'Properties';
+}
+
+#write pre[lang$='protobuf']:after,
+#write pre[lang$='Protobuf']:after {
+    content: 'Protobuf';
+}
+
+#write pre[lang$='pseudocode']:after,
+#write pre[lang$='Pseudocode']:after {
+    content: 'Pseudocode';
+}
+
+#write pre[lang$='python']:after,
+#write pre[lang$='Python']:after {
+    content: 'Python';
+}
+
+#write pre[lang$='Kotlin']:after,
+#write pre[lang$='kotlin']:after {
+    content: 'Kotlin';
+}
+
+#write pre[lang$='Q']:after,
+#write pre[lang$='q']:after {
+    content: 'Q';
+}
+
+#write pre[lang$='R']:after,
+#write pre[lang$='r']:after {
+    content: 'R';
+}
+
+#write pre[lang$='react']:after,
+#write pre[lang$='kotlin']:after {
+    content: 'React';
+}
+
+#write pre[lang$='reStructuredText']:after,
+#write pre[lang$='restructuredtext']:after,
+#write pre[lang$='rst']:after {
+    content: 'reStructuredText';
+}
+
+#write pre[lang$='ruby']:after,
+#write pre[lang$='Ruby']:after {
+    content: 'Ruby';
+}
+
+#write pre[lang$='Rust']:after,
+#write pre[lang$='rust']:after {
+    content: 'Rust';
+}
+
+#write pre[lang$='SAS']:after,
+#write pre[lang$='sas']:after {
+    content: 'SAS';
+}
+
+#write pre[lang$='scala']:after,
+#write pre[lang$='Scala']:after {
+    content: 'Scala';
+}
+
+#write pre[lang$='scheme']:after,
+#write pre[lang$='Scheme']:after {
+    content: 'Scheme';
+}
+
+#write pre[lang$='scss']:after,
+#write pre[lang$='Sass']:after {
+    content: 'Sass';
+}
+
+#write pre[lang$='sequence']:after,
+#write pre[lang$='Sequence']:after {
+    content: 'Sequence';
+}
+
+#write pre[lang^='sh']:after,
+#write pre[lang^='SH']:after,
+#write pre[lang$='shell']:after {
+    content: 'Shell';
+}
+
+#write pre[lang$='smalltalk']:after,
+#write pre[lang$='Smalltalk']:after {
+    content: 'Smalltalk';
+}
+
+#write pre[lang$='solidity']:after,
+#write pre[lang$='Solidity']:after {
+    content: 'Solidity';
+}
+
+#write pre[lang$='SPARQL']:after,
+#write pre[lang$='sparql']:after {
+    content: 'SPARQL';
+}
+
+#write pre[lang$='s#write preadsheet']:after,
+#write pre[lang$='S#write preadsheet']:after {
+    content: 'S#write preadsheet';
+}
+
+#write pre[lang$='sql']:after,
+#write pre[lang$='SQL']:after {
+    content: 'SQL';
+}
+
+#write pre[lang$='sqlite']:after,
+#write pre[lang$='SQLite']:after {
+    content: 'SQLite';
+}
+
+#write pre[lang$='stylus']:after,
+#write pre[lang$='Stylus']:after {
+    content: 'Stylus';
+}
+
+#write pre[lang$='swift']:after,
+#write pre[lang$='Swift']:after {
+    content: 'Swift';
+}
+
+#write pre[lang$='tcl']:after,
+#write pre[lang$='TCL']:after {
+    content: 'TCL';
+}
+
+#write pre[lang$='tex']:after,
+#write pre[lang$='TeX']:after {
+    content: 'TeX';
+}
+
+#write pre[lang$='tiddlywiki']:after,
+#write pre[lang$='TiddlyWiki']:after {
+    content: 'TiddlyWiki';
+}
+
+#write pre[lang$='tiki wiki']:after,
+#write pre[lang$='Tikiwiki']:after {
+    content: 'Tikiwiki';
+}
+
+#write pre[lang$='toml']:after,
+#write pre[lang$='TOML']:after {
+    content: 'TOML';
+}
+
+#write pre[lang$='tsx']:after,
+#write pre[lang$='TSX']:after {
+    content: 'TSX';
+}
+
+#write pre[lang$='turtle']:after,
+#write pre[lang$='Turtle']:after {
+    content: 'Turtle';
+}
+
+#write pre[lang$='twig']:after,
+#write pre[lang$='Twig']:after {
+    content: 'Twig';
+}
+
+#write pre[lang$='TypeScript']:after,
+#write pre[lang$='typescript']:after,
+#write pre[lang$='ts']:after,
+#write pre[lang$='TS']:after {
+    content: 'TypeScript';
+}
+
+#write pre[lang$='V']:after,
+#write pre[lang$='v']:after {
+    content: 'V';
+}
+
+#write pre[lang$='vb']:after,
+#write pre[lang$='VB']:after {
+    content: 'VB';
+}
+
+#write pre[lang$='VBScript']:after,
+#write pre[lang$='vbscript']:after {
+    content: 'VBScript';
+}
+
+#write pre[lang$='velocity']:after,
+#write pre[lang$='Velocity']:after {
+    content: 'Velocity';
+}
+
+#write pre[lang$='verilog']:after,
+#write pre[lang$='Verilog']:after {
+    content: 'Verilog';
+}
+
+#write pre[lang$='vhdl']:after,
+#write pre[lang$='VHDL']:after {
+    content: 'VHDL';
+}
+
+#write pre[lang$='visual basic']:after,
+#write pre[lang$='Visual Basic']:after {
+    content: 'Visual Basic';
+}
+
+#write pre[lang$='vue']:after,
+#write pre[lang$='Vue']:after {
+    content: 'Vue';
+}
+
+#write pre[lang$='web-idl']:after,
+#write pre[lang$='Web IDL']:after {
+    content: 'Web IDL';
+}
+
+#write pre[lang$='wiki']:after,
+#write pre[lang$='Wiki']:after {
+    content: 'Wiki';
+}
+
+#write pre[lang$='xaml']:after,
+#write pre[lang$='XAML']:after {
+    content: 'XAML';
+}
+
+#write pre[lang$='xml']:after,
+#write pre[lang$='XML']:after {
+    content: 'XML';
+}
+
+#write pre[lang$='xml-dtd']:after,
+#write pre[lang$='XML DTD']:after {
+    content: 'XML DTD';
+}
+
+#write pre[lang$='xquery']:after,
+#write pre[lang$='XQuery']:after {
+    content: 'XQuery';
+}
+
+#write pre[lang$='yacas']:after,
+#write pre[lang$='Yacas']:after {
+    content: 'Yacas';
+}
+
+#write pre[lang$='yaml']:after,
+#write pre[lang$='YAML']:after {
+    content: 'YAML';
+}

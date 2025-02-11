@@ -1,0 +1,36 @@
+#write img {
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+/* #write img:hover {
+    transform: scale(1.03);
+} */
+
+/* .md-image {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+} */
+/* .md-image img {
+    width: 800px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8),
+                0 0 20px rgba(0, 255, 0, 0.7),
+                0 0 30px rgba(0, 0, 255, 0.6);
+} */
+
+#write .md-image:hover img {
+    transform: scale(1.01);
+}
+
+#wite .md-image:hover::before {
+    opacity: 1;
+}

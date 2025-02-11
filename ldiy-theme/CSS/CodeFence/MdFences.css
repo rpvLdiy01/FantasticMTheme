@@ -1,0 +1,55 @@
+/* 引入字体文件，避免文件报错 */
+@import url("../../Resource/Fonts/ldiy-font.css");
+
+/* —————————————————————————————————————————————————————— typora采用的fences样式渲染器 —————————————————————————————————————————————————————— */
+#write .md-fences {
+    font-family: 'Monaco', '手写-可爱园' !important;
+    font-size: 18px !important;
+    word-spacing: normal !important;
+
+    /* 代码块盒子内整体背景色 */
+    /* 淡蓝色 */
+    /* background-color: rgba(98, 166, 230, 0.13); */
+    /* background-color: rgba(240, 248, 255, 0.32); */
+    /* 浅灰色 */
+    /* background-color: rgba(200, 226, 250, 0.5); */
+
+    /* 代码块的盒子阴影效果 */
+    /* box-shadow: 0 0 6px 2px rgba(151, 151, 151, 0.9); */
+    box-shadow: 0.15rem 0.15rem 0.5rem rgb(150, 150, 150);
+    padding: 1rem 0.5rem 1rem;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+
+    /* 代码边框样式 */
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.4rem;
+    border-color: #000000;
+
+    /* 上边框 */
+    border-top: rgba(51, 51, 51, 0.64) solid 35px;
+
+    caret-color: rgb(208, 23, 32);
+}
+
+/* —————————————————————————————————————————————————————— 代码块的最上面的横条 —————————————————————————————————————————————————————— */
+#write .md-fences::before {
+    content: ' ';
+    position: absolute;
+    background: rgb(255, 95, 87);
+    box-shadow: 23px 0 rgb(254, 188, 46), 45px 0 rgb(39, 200, 64);
+    border-radius: 50%;
+    margin-top: -2.3rem;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+}
+
+/* —————————————————————————————————————————————————————— fence行编号 —————————————————————————————————————————————————————— */
+#write .CodeMirror-gutters { /* 代码块行号右侧的竖线 */
+    border-right: 1px solid #e90707;
+}
+#write .CodeMirror-linenumber { /* 代码块行编号颜色（蓝色） */
+    color: blue;
+}

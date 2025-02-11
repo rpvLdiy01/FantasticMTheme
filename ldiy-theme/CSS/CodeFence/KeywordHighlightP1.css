@@ -1,0 +1,44 @@
+/* —————————————————————————————————————————————————————— 代码语法高亮 —————————————————————————————————————————————————————— */
+.cm-s-inner .cm-keyword {
+    color: rgb(255, 0, 0);
+}
+
+.cm-s-inner .cm-number {
+    color: rgb(27, 57, 226);
+}
+
+.cm-s-inner .cm-def {
+    color: rgb(146, 50, 255);
+}
+
+.cm-s-inner .cm-operator {
+    color: rgb(204, 35, 35);
+}
+
+.cm-s-inner .cm-variable2 {
+    color: rgb(38, 129, 219);
+}
+
+.cm-s-inner .cm-variable3 {
+    color: rgb(204, 35, 35);
+}
+
+.cm-s-inner .cm-comment {
+    color: rgb(18, 129, 18);
+}
+
+.cm-s-inner .cm-builtin {
+    color: rgb(218, 135, 12);
+}
+
+.cm-s-inner .cm-link {
+    color: #22a2c9;
+}
+
+.cm-s-inner .cm-string {
+    color: #22a2c9;
+}
+
+.cm-s-inner .cm-tag {
+    color: rgb(139, 10, 10);
+}

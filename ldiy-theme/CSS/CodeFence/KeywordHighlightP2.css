@@ -1,0 +1,130 @@
+/* 关键字 */
+.cm-s-inner .cm-keyword {
+    color: #222fa7;
+    font-weight: bold;
+}
+
+/* 操作符 */
+.cm-s-inner .cm-operator {
+    color: #006400;
+}
+
+/* 变量 */
+.cm-s-inner .cm-variable {
+    color: #239d37;
+    font-weight: bold;
+}
+
+/* 函数参数 */
+.cm-s-inner .cm-variable-2 {
+    color: #108979;
+}
+
+/* 类名 */
+.cm-s-inner .cm-variable-3 {
+    color: #183da2;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+/* 内建函数 */
+.cm-s-inner .cm-builtin {
+    color: #006400;
+    /* font-style: italic; */
+}
+
+/* 常量 */
+.cm-s-inner .cm-atom {
+    color: #3b8f8f;
+}
+
+/* 数字 */
+.cm-s-inner .cm-number {
+    color: #3e19cf;
+}
+
+/* 函数定义 */
+.cm-s-inner .cm-def {
+    color: #10623e;
+    font-weight: bold;
+}
+
+/* 字符串 */
+.cm-s-inner .cm-string {
+    color: #0264bf;
+    /* font-style: italic; */
+}
+
+/* 模板字符串 */
+.cm-s-inner .cm-string-2 {
+    color: #6b8e23;
+}
+
+/* 注释 */
+.cm-s-inner .cm-comment {
+    color: #6a737d;
+    /* font-style: italic; */
+}
+
+/* HTML 标签 */
+.cm-s-inner .cm-tag {
+    color: #042c99;
+}
+
+/* HTML 标签属性 */
+.cm-s-inner .cm-attribute {
+    color: #2b34e3;
+}
+
+/* CSS 属性 */
+.cm-s-inner .cm-property {
+    color: #2e8b57;
+}
+
+/* 选择器 */
+.cm-s-inner .cm-qualifier {
+    color: #2e8b57;
+}
+
+/* 元信息 */
+.cm-s-inner .cm-meta {
+    color: #099f8b;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+/* 链接 */
+.cm-s-inner .cm-link {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+/* 错误信息 */
+.cm-s-inner .cm-error {
+    color: #d32f2f;
+    background-color: #fdd;
+}
+
+/* 布尔值 */
+.cm-s-inner .cm-boolean {
+    color: #228b22;
+    font-weight: bold;
+}
+
+/* 类型 */
+.cm-s-inner .cm-type {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+/* 标题 */
+.cm-s-inner .cm-header {
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+/* 引用 */
+.cm-s-inner .cm-quote {
+    color: #3503a8;
+    /* font-style: italic; */
+}

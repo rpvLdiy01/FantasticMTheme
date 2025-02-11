@@ -1,0 +1,74 @@
+@import url('../../Resource/Fonts/ldiy-font.css');
+
+/* ==========================================================================
+   #table的整体共性样式
+   ========================================================================== */
+#write table {
+    width: 100%;
+    /* border-collapse */
+    border-collapse: collapse;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* background-color: #fff; */
+
+    font-family: 'LinotteSemiBold', '翰林馆阁体';
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+
+    /* 表格外边框，将表格凸显出来 */
+    /* border-radius: 8px; */
+    border: 2px solid #5981e6;
+}
+
+/* #write table tr:hover {
+    background-color: rgba(138, 224, 165, 0.5);
+} */
+
+/* ==========================================================================
+   #table的列标题和例数据块
+   ========================================================================== */
+
+#write table th, td {
+    /* 使能换行 */
+    white-space: normal;
+    /* 长单词或URL换行 */
+    word-wrap: break-word;
+    /* 现代属性，等效word-wrap */
+    /* overflow-wrap: break-word; */
+}
+
+/* 表格的第一行(列标题) */
+#write table th {
+    background-color: #F5F5F5;
+    /* border-right: 2px solid #000000; */
+    border-bottom: 2px solid blue; /* 单元格边框 */
+
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 表格的第二行开始后的数据行 */
+#write table td {
+    background-color: rgba(98, 166, 230, 0.363);
+
+    border-right: 2px solid #F5F5F5;
+    border-bottom: 2px solid black;
+
+    padding-left: 5px;
+}
+
+/* tr每一行的最后一个表格数据块td */
+#write table td:last-child {
+    border-right: #000000;
+}
+
+/**
+ * tips
+  1.如果想要规定双数行和单数行的不同颜色，那么就不能在tr里面指定
+  2.如果table父选择器的背景色不是透明的，那么这里的α透明度不生效
+ */
+/* #write table tr:nth-of-type(even) {
+    background-color: rgba(98, 166, 230, 0.363);
+} */
+/* #write table tr:nth-of-type(odd) {
+    background-color: rgba(230, 98, 98, 0.363);
+} */
