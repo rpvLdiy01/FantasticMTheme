@@ -1,13 +1,16 @@
-/* 有序列表 */
+/* Unicode字符的在线字典 https://symbl.cc/cn/unicode-table/#emoticons */
+
+/* -------------------- 有序列表 -------------------- */
 #write ol {
     list-style-type: upper-roman;
     color: blue;
     font-size: 20px;
 }
 
-/* 无序列表 */
+/* -------------------- 无序列表 -------------------- */
 #write ul {
-    list-style-type: circle;
-    color: red;
-    font-size: 20px;
+    list-style: "🐉";
+    font-size: 1.5rem;
+    /* 调整::marker和文本之间的距离 */
+    text-indent: 12px;
 }

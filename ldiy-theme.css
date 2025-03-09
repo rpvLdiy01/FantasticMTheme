@@ -12,24 +12,7 @@
 
 @import url('ldiy-theme/CSS/Image/BaseProfile.css');
 
-/**
-  :root伪类选择器作用->这是HTML中特殊的选择器，对应的是<html>标签，这是最顶级的父类标签、
-  :root的优先级->最高优先级
-  :root常用场景-> √设置一些变量var
-                 √设置网页的全局背景图
- **/
-:root {
-    /* 变量区 */
-    --background-image: url("ldiy-theme/Resource/Image/HTMLImage/FantasyWorld.jpg");
-    background: var(--background-image);
-
-    background-size: cover; /* 背景图基于容器大小伸缩 */
-    background-repeat: no-repeat; /* 背景图不平铺 */
-    background-position: center center; /* 背景图在水平方向和垂直方向均居中 */
-    background-attachment: fixed; /* 图片的高度相对于视图窗口固定 */
-
-    cursor: pointer;
-}
+@import url('ldiy-theme/CSS/Root/BaseProfile.css');
 
 /* —————————————————————————————————————————————————————— 置顶ctrl+f：搜索框 —————————————————————————————————————————————————————— */
 #md-searchpanel {

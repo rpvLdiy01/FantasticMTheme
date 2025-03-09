@@ -1,0 +1,23 @@
+/**
+ * 文件特点：暗色调
+ */
+
+:root {
+    /* 蓝湖 */
+    --background-imageA: url("../../Resource/Image/HTMLImage/BlueLake.jpg");
+    /* 登山望云舒 */
+    --background-imageB: url("../../Resource/Image/HTMLImage/PleasantJaunt.Cloud.jpg");
+    /* 星际飞船 */
+    --background-imageC: url("../../Resource/Image/HTMLImage/Universe.Spaceship.jpg");
+    /* 油画绿竹 */
+    --background-imageA: url("../../Resource/Image/HTMLImage/Vegetation.Bamboo.jpg");
+
+    background: var(--background-imageB);
+
+    background-size: cover; /* 背景图基于容器大小伸缩 */
+    background-repeat: no-repeat; /* 背景图不平铺 */
+    background-position: center center; /* 背景图在水平方向和垂直方向均居中 */
+    background-attachment: fixed; /* 图片的高度相对于视图窗口固定 */
+
+    cursor: pointer;
+}
