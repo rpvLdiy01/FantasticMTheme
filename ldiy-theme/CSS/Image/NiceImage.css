@@ -1,0 +1,13 @@
+#write .md-image {
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+#write .md-image img {
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+
+#write .md-image:hover img {
+    transform: scale(1.01);
+}

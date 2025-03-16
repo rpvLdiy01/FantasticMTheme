@@ -18,7 +18,7 @@
     background-color: rgba(192, 192, 192, 0.8);
     border-style: solid 1px;
 
-    font-family: 'Monaco', '翰林馆阁体';
+    font-family: 'ldiy-FireCode', '文泉驿等宽正黑';
     font-size: 1.2rem;
 }
 
@@ -142,4 +142,15 @@
 .info-panel-tab-title {
     font-family: '手札体之顺风顺水' !important;
     font-size: 20px;
+}
+
+/* —————————————————————————————————————————————————————— 高亮当前标题 —————————————————————————————————————————————————————— */
+.outline-item.outline-item-active {
+    color: red;
+    /* 无效属性(border-right-style) */
+    /* border-right-style: 5px solid; */
+
+    border-right: 2px dashed black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

@@ -27,10 +27,10 @@
                 0 0 30px rgba(0, 0, 255, 0.6);
 } */
 
-#write .md-image:hover img {
+/* #write .md-image:hover img {
     transform: scale(1.01);
-}
+} */
 
-#wite .md-image:hover::before {
+/* #wite .md-image:hover::before {
     opacity: 1;
-}
+} */

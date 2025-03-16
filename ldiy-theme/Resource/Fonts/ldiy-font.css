@@ -44,3 +44,12 @@
     src: url('Chinese/翰林馆阁体/AaHanLinGuanGeTi.ttf');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: '文泉驿等宽正黑';
+    src: url('Chinese/文泉驿等宽正黑/WenQuanDengKuanZhengHei.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    /* swap特点，立即使用备用字体，直到自定义字体加载完成后再立即替换为自定义字体 */
+    font-display: swap;
+}
