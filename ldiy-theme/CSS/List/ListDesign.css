@@ -2,15 +2,51 @@
 
 /* -------------------- 有序列表 -------------------- */
 #write ol {
-    list-style-type: upper-roman;
+    /* 中文 */
+    list-style-type: trad-chinese-informal;
+}
+
+#write ol li::marker {
+    font-family: '翰林馆阁体';
+    font-size: 1.8rem;
+    font-weight: 900; /* 700是粗体 */
     color: blue;
-    font-size: 20px;
+}
+
+/* 有序列表内的一级子有序列表(默认递进) */
+#write ol ol {
+    list-style-type: upper-alpha;
+}
+
+#write ol ol li::marker {
+    font-family: 'LinotteSemiBold';
+    font-size: 1.8rem;
+    font-weight: 700; /* 700是粗体 */
+    color: red;
+}
+
+/* 有序列表内的一级子无序列表(默认递进) */
+#write ol ul li::marker {
+    content: '۩';
+    font-size: 1.5rem;
+    /* 调整::marker和文本之间的距离 */
+    text-indent: 12px;
 }
 
 /* -------------------- 无序列表 -------------------- */
 #write ul {
-    list-style: "🐉";
+    list-style-type: armenian;
+}
+
+#write ul li {
+    padding-left: 12px; /* 用于调节li的marker和li容器的间距 */
+}
+
+#write ul li::marker {
+    content: '֍';
     font-size: 1.5rem;
-    /* 调整::marker和文本之间的距离 */
-    text-indent: 12px;
+    /* 调整::marker和文本之间的距离(text-indent不适用于::marker) */
+    /* text-indent: 12px; */
+    vertical-align: middle; /* 使 marker 垂直居中对齐 */
+    margin-right: 8px; /* 调节 marker 和文本之间的水平间距 */
 }
