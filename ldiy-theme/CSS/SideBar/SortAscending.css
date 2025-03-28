@@ -15,7 +15,10 @@
     border-top-right-radius: 35px;
 
     /* 毛玻璃效果 */
-    background-color: rgba(192, 192, 192, 0.8);
+    /* 银色 */
+    /* background-color: rgba(192, 192, 192, 0.8); */
+    /* 乳白色(浅象牙色) */
+    background-color: rgba(255, 241, 240, 0.8);
     border-style: solid 1px;
 
     font-family: 'ldiy-FireCode', '文泉驿等宽正黑';

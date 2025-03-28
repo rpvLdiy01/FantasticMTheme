@@ -73,3 +73,22 @@ mark { /* mark选择器：配置高亮，即：==内容== */
 ::selection {
     background-color: red !important;
 }
+
+/* —————————————————————————————————————————————————————— `code` —————————————————————————————————————————————————————— */
+#write code {
+    font-family: 'ldiy-FireCode';
+    color: red;
+
+    background-color: rgba(189, 252, 201, 0.5);
+
+    border-radius: 3px, 3px;
+    padding: 4px, 4px;
+    margin: 2px, 2px;
+}
+
+/* —————————————————————————————————————————————————————— **strong** —————————————————————————————————————————————————————— */
+#write strong {
+    font-family: 'ldiy-FireCode', '文泉驿等宽正黑';
+    color: red;
+    font-size: 900;
+}
